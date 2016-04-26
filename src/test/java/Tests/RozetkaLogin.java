@@ -35,6 +35,7 @@ public class RozetkaLogin {
     public void RozetkaLogin() throws InterruptedException {
         //added a test comment
         //second commit
+        //created new branch
         RozetkaLoginPage loginPage = new RozetkaLoginPage(driver);
         loginPage.login(userEmail, userPassword);
         Thread.sleep(1000);
